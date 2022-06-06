@@ -1,6 +1,7 @@
 package com.github.sammuskovitz;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class JPanelTile extends JPanel {
 

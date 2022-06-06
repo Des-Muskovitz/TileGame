@@ -29,7 +29,7 @@ public class Visualizer {
                 jPanel.setBackground(Color.WHITE);
         }
 
-
+        allTiles.add(jPanel);
 
         return jPanel;
     }
@@ -40,20 +40,11 @@ public class Visualizer {
 
     public static JFrame setupJFrame(GameMap gameMap, int width, int height, String windowTitle){
         JPanel field = new JPanel(new GridLayout(gameMap.getMapWidth(), gameMap.getMapHeight()));
+
         field.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                int mouseX = e.getX();
-                int mouseY = e.getY();
-
-                Component[] tiles = field.getComponents();
-
-                for(int i = 0; i < allTiles.size(); i++){
-
-                    if(isWithinArea(mouseX, mouseY, tiles[i].getX(), tiles[i].getY(), tiles[i].getWidth(), tiles[i].getHeight())){
-                        tiles[i].setBackground(allTiles.get(i).getTile().getPaintColor());
-                    }
-                }
+                super.mouseClicked(e);
             }
         });
 
