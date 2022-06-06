@@ -33,7 +33,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../samuel-muskovitz-student-code/module-1/14_Unit_Testing/exercise" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CollectionVisualier" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -44,7 +44,7 @@
       <recent name="com.github.sammuskovitz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameMapTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.sammuskovitz.Main" />
       <module name="TileGame" />
@@ -120,8 +120,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GameMapTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.GameMapTest" />
         <item itemvalue="JUnit.TileTest" />
         <item itemvalue="JUnit.CoordinateTest" />
         <item itemvalue="JUnit.CoordinateTest (4)" />

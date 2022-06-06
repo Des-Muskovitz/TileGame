@@ -1,6 +1,6 @@
 package com.github.sammuskovitz;
 
-import java.util.List;
+import javax.swing.*;
 
 public class Main {
 
@@ -13,6 +13,8 @@ public class Main {
                 {'w','w','w','w','w'}
         });
 
-        
+
+        JFrame frame = Visualizer.setupJFrame(gameMap, 1000, 1000, "Game Window");
+        frame.setVisible(true);
     }
 }
